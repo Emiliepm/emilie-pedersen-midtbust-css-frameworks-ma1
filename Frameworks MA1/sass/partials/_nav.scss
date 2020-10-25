@@ -1,0 +1,21 @@
+.navbar{
+background-color: $primary;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: $font-secondary;
+    color: $navbar-light-color;
+    font-size: 15px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+    color: $navbar-light-active-color;
+        font-family: $font-secondary;
+}
+
+.navbar-brand {
+    font-size: 28px;
+}
+ 
